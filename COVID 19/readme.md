@@ -1,6 +1,6 @@
 **LEA DETENIDAMENTE ESTE README ANTES DE UTILIZAR LOS DATOS**
 
-**Datasets relacionados con la incidencia de la COVID-19 en España**
+**Datasets relacionados con la incidencia de la COVID-19 en España realizado por DATADISTA, medio especializado en periodismo de investigación y datos para salir del ruido.**
 
 - Extracción, limpieza y normalización de las tablas de la situación diaria acumulada de la enfermedad por el coronavirus SARS-CoV-2 (COVID-19) en España en un formato accesible y reutilizable. Datos actualizados diariamente según el calendario y ritmo de publicación del Ministerio de Sanidad y el Instituto de Salud Carlos III. 
 
@@ -90,6 +90,40 @@ grupos. Los pacientes que han precisado UCI también computan en los pacientes q
 datos. Cataluña ha notificado 337 casos más respecto ayer, de los cuales 184 corresponden a casos nuevos. La serie de casos se está revisando.
 
 **NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (13/05/2020)**: De los 136 nuevos casos notificados por Cataluña, 26 casos corresponden a casos antiguos. La serie de casos se está revisando. 
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (15/05/2020)**: Extremadura ha actualizado su histórico de positivos por PCR y ha añadido dos casos más a los datos de ayer y otros dos a los del día anterior.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (16/05/2020)**:  Cataluña ha notificado además de los 123 casos nuevos, 98 casos antiguos. La serie de casos se está revisando. Galicia ha realizado una revisión de sus casos y ha actualizado la información. Se continuará revisando la serie. La Comunidad de Madrid consolida diariamente la serie de casos confirmados por PCR, asignando a los casos nuevos notificados la fecha en la que se toma la muestra o se emite el resultado. Se realiza una actualización diaria de la serie de casos.
+
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (17/05/2020)**: Cataluña ha notificado además de los 116 casos nuevos, 23 casos antiguos. La serie de casos se está revisando. País Vasco ha notificado además de los 16 casos nuevos, 100 casos antiguos. La serie de casos se está revisando. La Comunidad de Madrid consolida diariamente la serie de casos confirmados por PCR, asignando a los casos nuevos notificados la fecha en la que se toma la muestra o se emite el resultado. Se realiza una actualización diaria de la serie de casos.
+
+**NOTA ACLARATORIA DE DATADISTA (18/05/2020)**: Desde hoy, el Ministerio de Sanidad publica los datos diario por la tarde, alrededor de las 17h. Esto es debido a que las comunidades autónomas enviarán por la mañana (hasta las 12h) los datos que tengan disponibles del día anterior completo (a las 0:00h) mientras que anteriormente estos datos se facilitaban por parte de las CCAA en horario entre las 20h y 21h del día anterior a su difusión. 
+
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (19/05/2020)**: Cataluña, Extremadura y País Vasco han validado sus casos por lo que el dato acumulado de hoy puede ser menor que el notificado ayer. Los casos nuevos no provienen de la resta de los notificados ayer respecto a hoy. Las series se están revisando. La Comunidad de Madrid consolida diariamente la serie de casos confirmados por PCR, asignando a los casos nuevos notificados la fecha en la que se toma la muestra o se emite el
+resultado. Se realiza una actualización diaria de la serie de casos.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (20/05/2020)**: La Comunidad de Madrid ha notificado 217 casos nuevos de los cuales 112 son nuevos diagnósticos. Esta comunidad consolida diariamente la serie de casos confirmados por PCR,
+asignando a los casos nuevos notificados la fecha en la que se toma la muestra o se emite el resultado. Se realiza una actualización diaria de la serie de casos.Las CCAA están validando y depurando las series de datos por lo que los casos totales pueden sufrir variaciones de un día a otro. El total de pacientes en hospitalizados, en UCI y fallecidos puede variar respecto a días previos debido a que algunas Andalucía, Aragón, Asturias, C. Valenciana y Extremadura están depurando sus datos.
+
+**NOTA ACLARATORIA DE DATADISTA (21/05/2020)**: Sanidad ha dejado de publicar en sus informes diarios los datos de recuperados, testAC y casos confirmados por rango de edad desde 18/05/2020. El ISCIII llevaba desde el 18/05/2020 sin actualizar la serie histórica. El 21/05/2020 ha actualizado eliminando la columna de personas recuperadas. Por este motivo, no podemos actualizar los datasets nacional_covid19_rango_edad.csv y ccaa_covid19_altas.csv y sus versiones larga. Indica Sanidad que a partir de esta semana los datos como personal sanitario contagiado y personas recuperadas se ofrecerán una vez a la semana. Hoy Sanidad no ha publicados los datos de Cataluña por ser imprecisos. Estarán disponible en breve.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (22/05/2020)**:Cataluña ha notificado más casos confirmados de días previos pendientes de asignación fecha de diagnóstico. La serie se está revisando. La Comunidad de Madrid ha notificado 376 casos nuevos de los cuales 53 son nuevos diagnósticos. El País Vasco ha notificado 33 casos nuevos de los cuales 13 son nuevos diagnósticos. Cataluña ha notificado más fallecidos de días previos pendientes de asignación fecha de defunción. La serie se está revisando.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (24/05/2020)**: Cataluña ha notificado 52 casos de nuevo diagnóstico. La serie histórica está siendo revisada. La Comunidad de Madrid ha notificado 261 casos nuevos de los cuales 26 son nuevos diagnósticos. Murcia ha notificado 4 casos nuevos de los cuales sólo 1 es nuevo diagnóstico.No hay datos actualizados en Cataluña de pacientes que han presidado hospitalización e ingresado en UCI, serie pendiente de actualización.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (25/05/2020)**: El presente informe se ha realizado, hasta el 10 de mayo de 2020, con los datos notificados diariamente de forma agregada por las comunidades autónomas. El pasado 11 de mayo de 2020 entró en vigor la nueva estrategia de diagnóstico, vigilancia y control en la fase de transición de la pandemia de COVID-19, por la que las comunidades autónomas deben notificar los casos confirmados de forma individualizada y diariamente al nivel estatal. Por lo tanto, a partir del 11 de mayo de 2020 se utiliza dicha información para la elaboración de este informe diario. Una vez combinados los datos de ambos métodos de vigilancia, en España hasta el momento se han notificado un total de 235.400 casos confirmados de COVID-19 y 26.837 fallecidos. Las discrepancias que puedan aparecer respecto a los datos de casos totales notificados previamente son resultado de la validación de los mismos por las comunidades autónomas y a la transición a la nueva estrategia de vigilancia. Esta discrepancia podría persistir aun varios días.
+
+**NOTA ACLARATORIA DEL ISCII (25/05/2020)**: DEBIDO A LA ENTRADA EN VIGOR DE LA NUEVA ESTRATEGIA DE VIGILANCIA Y CONTROL EN LA FASE DE TRANSICIÓN DE LA PANDEMIA DE COVID-19, HAY UN CAMBIO EN LA NOTIFICACIÓN DE LAS CCAA AL MINISTERIO DE SANIDAD QUE AFECTA A LA INFORMACIÓN DE ESTE PANEL. LAS SERIES DE CASOS DIARIOS ESTÁN EN REVISIÓN POR LAS CCAA. CUANDO SE CONSOLIDE LA INFORMACIÓN, SE PROCEDERÁ A LA ACTUALIZACIÓN DEL PANEL DE COVID-19.
+
+**NOTA ACLARATORIA DEL MINISTERIO DE SANIDAD (26/05/2020)**: El presente informe se ha realizado, hasta el 10 de mayo de 2020, con los datos notificados diariamente de forma agregada por las comunidades autónomas. El pasado 11 de mayo de 2020 entró en vigor la nueva estrategia de diagnóstico, vigilancia y control en la fase de transición de la pandemia de COVID-19, por la que las comunidades autónomas deben notificar los casos confirmados de forma individualizada y diariamente al nivel estatal. Por lo tanto, a partir del 11 de mayo de 2020 se utiliza dicha información para la elaboración de este informe diario. Una vez combinados los datos de ambos métodos de vigilancia, en España hasta el momento se han notificado un total de 236.259 casos confirmados de COVID-19 y 27.119 fallecidos. Las discrepancias que puedan aparecer respecto a los datos de casos totales notificados previamente son resultado de la validación de los mismos por las comunidades autónomas y a la transición a la nueva estrategia de vigilancia. Esta discrepancia podría persistir aún varios días.
+
+
+**NOTA ACLARATORIA DE DATADISTA (DESDE 21/05/2020)**: Debido a la ruptura de la serie histórica por parte de Sanidad debido a la entrada en vigor de la nueva estrategia de vigilancia y control, los datasets de CCAA no serán actualizados hasta que el Instituto de Salud Carlos III actualice la serie histórica. No es comparable la serie anterior con la nueva hasta que no sean corregidos.
+
+**NOTA ACLARATORIA DE DATADISTA (29/05/2020)**: Fernando Simón indica que posiblemente el miércoles se publiquen los datos con la serie histórica corregida. Explica, por ejemplo, que se van a tener los datos por la fecha de fallecimiento y no la de notificación como hasta ahora.
+
   
 **(\*\*)COMUNIDADES AUTÓNOMAS QUE PUBLICAN DATOS DE PREVALENCIA**
 | Hospitalizados                     | Ingresos UCI         |
@@ -414,9 +448,15 @@ de interés general y todos los ligados a las actividades consideradas esenciale
 <br><br>
 **Nombre del archivo:** [provincias_estudio_prevalencia_anticuerpos_primera_ronda.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/provincias_estudio_prevalencia_anticuerpos_primera_ronda.csv)<br>
 **Nivel administrativo:** Provincial<br>
-**Descripción:** Estudio de seroprevalencia. Datos de la primera ronda. Prevalencia de anticuerpos IgG anti SARS-COv2 por provincia<br>
+**Descripción:** Estudio de seroprevalencia. Datos de la primera ronda (preliminares). Prevalencia de anticuerpos IgG anti SARS-COv2 por provincia<br>
 **Fuente:**  La Moncloa: https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/Paginas/2020/130520-seroprevalencia.aspx
 
+
+<br><br>
+**Nombre del archivo:** [provincias_estudio_prevalencia_anticuerpos_primera_y_segunda_ronda.csv](https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/provincias_estudio_prevalencia_anticuerpos_primera_y_segunda_ronda.csv)<br>
+**Nivel administrativo:** Provincial<br>
+**Descripción:** Estudio de seroprevalencia. Datos de la primera y segunda ronda. Prevalencia de anticuerpos IgG anti SARS-COv2 por provincia.<br>
+**Fuente:**  La Moncloa: https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/Paginas/2020/040620-seroprevalencia.aspx
 
 
 
@@ -516,3 +556,19 @@ de interés general y todos los ligados a las actividades consideradas esenciale
 [**Análisis del COVID-19 en España por edad y sexo**](https://public.tableau.com/profile/iv.n.carballeira#!/vizhome/AnlisisCOVID-19Espaa/Dashboardedadysexo)
 
 [**COVID-19 (SARS-CoV-2): Datos Nacionales, por CCAA, mundiales y simulación epidemiológica**](https://baguadoramirez.shinyapps.io/covid/)
+
+[**COVID19-Tracker: una aplicación Shiny para analizar datos de la epidemia de SARS-CoV-2 en España DOI: 10.1016/j.gaceta.2020.04.002**](https://www.gacetasanitaria.org/es-covid19-tracker-una-aplicacion-shiny-analizar-avance-S0213911120300856?fbclid=IwAR3RweA81af9iQ_ivFE0bZSAT2m4AzQSTYr-0wTs5HATmigCmlJuTY_LGEM)
+
+[**COVID-19 Modeling: Predicciones del alcance del COVID-19**](https://covid19-modeling.github.io/)
+
+[**COVID-19 Spain**](https://covid19spain.org/)
+
+[**COnVIDa - Monitorización de datos de COVID19 en España**](https://convida.inf.um.es/)
+
+[**Reutilización de datos por la asignatura Desarrollo en Tecnologías Emergentes del Grado en Ingeniería en Sistemas de la Información - Universidad de Alcalá**](https://gitlab.com/dte2020/t6/tg3c)
+
+[**Prediction COVID-19: SIR based model in Spain**](https://www.kaggle.com/gustavomoyanodiaz/prediction-covid-19-sir-based-model-in-spain)
+
+[**Assessing the age- and gender-dependence of the severity and case fatality rates of COVID-19 disease in Spain DOI: 10.12688/wellcomeopenres.15996.1**](https://wellcomeopenresearch.org/articles/5-117/v1)
+
+[**A scaling approach to estimate the COVID-19 infection fatality ratio from incomplete data | arXiv:2006.02757 [q-bio.PE]**](https://arxiv.org/abs/2006.02757)
